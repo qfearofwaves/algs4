@@ -1,4 +1,6 @@
-public class Queue<Item> {
+import java.util.Iterator;
+
+public class Queue<Item> implements Iterable<Item> {
     private Node first;
     private Node last;
     private int n;
